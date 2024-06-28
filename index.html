@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaqueries.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Welcome</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Welcome</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+               <li><a href="#about" onclick="togglemenu()">About</a></li>
+               <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+               <li><a href="#works" onclick="togglemenu()">Works</a></li>
+               <li><a href="#contact" onclick="togglemenu()">Contact</a></li>  
+            </div>
+    </nav>
+
+    <section id="profile">
+        <div class="home">
+          <div class="home-content">
+              <div class="text-1">Hello, I am</div>
+              <div class="text-2">Stuti Rajbhandari</div>
+              <div class="text-3">And I'm a <span class="typing"></span></div>
+              <a href="Assets/Curriculum Vitae.pdf" download="CV">Download CV</a>
+          </div>
+        </div>
+
+        <div class="header-bg">
+          <img class="header" src="Assets/profile.png" alt="profile">
+        </div>
+
+
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+            <div class="section__pic-container">
+            <img src="Assets/aboutimg.jpg" alt="profile" class="about-pic">
+        </div>
+
+    <div class="about-details-container">
+
+        <div class="about-containers"> 
+
+            <div class="details-container"> 
+              <img src="/Assets/experience.png" alt="Experience Icon" class="icon">
+              <h3>Experience</h3>           
+              <p>Internship, Kavya School</br> 3D Animation Course, Maya Academy</p> 
+            </div>
+
+            <div class="details-container">
+              <img src="/Assets/education.png" alt="Education Icon" class="icon">
+              <h3>Education</h3>           
+              <p>+2, Kavya School</br> Science Stream, Computer Sc.</p> 
+            </div>
+         </div>
+
+            <div class="text-container"> 
+                <p class="section__text__p3">Hi, I'm Stuti Rajbhandari</p>
+                Currently completing my secondary education in Kavya School, I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am able to work independently in busy environments and also within a team setting. </p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title-experience">Experiences</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container-experience">
+                    <h2 class="experience-sub-title">Technical Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                            <h3 style="text-align: center;">HTML</h3>
+                            <p style="text-align: center;">Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                            <h3 style="text-align: center;">CSS</h3>
+                            <p style="text-align: center;">Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                            <h3 style="text-align: center;">JavaScript</h3>
+                            <p style="text-align: center;">Basic</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="details-container-experience">
+                    <h2 class="experience-sub-title">Design Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                            <h3 style="text-align: center;">Maya3D</h3>
+                            <p style="text-align: center;">Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                            <h3 style="text-align: center;">ClipStudio</h3>
+                            <p style="text-align: center;">Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                            <h3 style="text-align: center;">Figma</h3>
+                            <p style="text-align: center;">Intermediate</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Works</h1>
+
+        <div class="box-area">
+          <div class="box active">
+              <img src="Assets/room.jpg" alt="3D Image">            
+              <h2>3D Room Design:A Virtual Architectural Showcase</h2>
+              <p>This virtual space blends creative vision with technical precision, offering life-like simulations of architectural elements that replicate real-world environments or imaginative concepts with realism.</p>
+          </div>
+          <div class="box">
+              <img src="Assets/guitar.jpg" alt="3D Image">
+              <h2>Guitar: Strings of Virtual Ingenuity</h2>
+              <p>A digital rendition or a virtual representation of a guitar that allows for detailed modeling of its body, strings, and other components, with realistic textures to simulate its physical appearance in a digital environment.</p>
+          </div>
+          <div class="box">
+            <img src="Assets/donut.png" alt="HTML Website">            
+            <h2>Donut: A Sweet Simulation</h2>
+            <p>This virtual treat tantalizes the senses with its delectable appearance, showcasing intricate details from its perfectly textured surface to the subtle glaze that glistens under simulated lighting. </p>
+        </div>
+          <div class="box">
+              <img src="Assets/mst.png" alt="UI/UX Design">            
+              <h2>My Second Teacher: Crafting Interfaces in Figma</h2>
+              <p>Creation of a digital interface using the Figma design tool which involves designing web pages, user interfaces, interactive elements and content layouts within Figma's collaborative and versatile environment.</p>
+          </div>
+      </div>
+        
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div>
+            <div class="background">
+                <div class="container">
+                  <div class="screen">
+                    <div class="screen-header">
+                      <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                      </div>
+                      <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                      </div>
+                    </div>
+                    <div class="screen-body">
+                      <div class="screen-body-item left">
+  
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 563" fill="none">
+			<g id="Image">
+					<g id="g14">
+							<g id="g16">
+									<g id="g22">
+											<path id="path24" d="M578.06 12.9772C592.384 8.33142 607.668 7.43103 622.682 8.31278C644.252 9.57946 666.668 15.0178 682.527 29.8837C692.521 39.2526 699.149 51.6277 707.182 62.7655C730.486 95.0785 766.513 118.198 782.236 154.912C795.674 186.289 790.623 225.749 767.498 250.666C744.37 275.583 703.649 282.658 675.018 264.535C647.531 247.136 635.383 212.503 610.273 191.742C592.326 176.901 569.144 170.28 549.646 157.607C529.69 144.636 513.457 124.248 509.79 100.515C506.745 80.8173 513.744 59.4156 528.903 46.4558C543.731 33.7796 559.331 19.0536 578.06 12.9772Z" fill="#D0F6FF"/>
+									</g>
+									<g id="g26">
+											<path id="path28" d="M702.629 254.14C677.841 258.169 653.602 251.674 628.841 247.05C605.059 242.608 581.372 234.267 562.49 218.522C553.842 211.31 546.177 202.344 542.784 191.529C537.944 176.097 542.362 159.436 542.319 143.243C542.267 124.241 537.593 105.929 524.57 91.9138C516.642 83.3826 507.429 75.9038 501.21 66.026C488.249 45.4368 498.285 17.8695 518.578 6.24557C537.067 -4.34208 560.588 -0.151769 579.793 9.03335C598.996 18.2198 615.855 31.9082 635.139 40.9228C656.28 50.8045 679.407 54.6779 702.724 56.9022C720.556 58.6044 738.716 56.5333 753.266 67.1156C763.675 74.6877 771.032 86.0519 775.307 98.2911C783.396 121.448 781.768 148.673 778.037 172.583C775.54 188.601 770.517 204.461 761.348 217.755C750.094 234.074 732.89 245.819 714.058 251.504C710.234 252.66 706.426 253.523 702.629 254.14Z" fill="#ADE0EC"/>
+									</g>
+									<g id="g30">
+											<path id="path32" d="M663.601 562.578H87.0689C43.5385 528.913 13.2922 480.886 5.1219 426.023C1.72497 403.207 3.65744 376.191 22.008 362.528C50.2285 341.516 92.5784 368.009 124.46 353.325C144.998 343.869 155.119 319.297 155.332 296.439C155.544 273.583 147.922 251.523 142.217 229.409C136.51 207.295 132.749 183.417 140.459 161.935C148.169 140.454 170.87 123.025 192.716 128.727C211.437 133.614 223.318 152.833 241.257 160.133C259.931 167.732 281.608 160.819 298.184 149.256C314.758 137.694 327.949 121.87 343.441 108.858C370.638 86.0156 406.562 72.0169 441.495 77.35C476.426 82.6831 508.747 110.108 514.202 145.471C518.662 174.4 506.652 207.826 524.152 231.129C543.883 257.401 585.152 250.025 613.676 265.983C636.899 278.972 649.286 309.077 642.052 334.934C634.666 361.336 609.565 383.494 613.653 410.622C616.583 430.071 633.6 443.505 645.587 458.982C668.627 488.727 679.049 528.158 663.601 562.578Z" fill="#D0F6FF"/>
+									</g>
+									<g id="g34">
+											<path id="path36" d="M636.536 562.578H142.588C127.567 548.706 110.711 535.931 102.179 517.242C93.6475 498.553 93.6698 474.269 107.702 459.372C124.638 441.394 152.947 443.847 176.763 437.899C204.228 431.038 229.205 408.689 232.723 380.251C237.265 343.537 206.911 309.992 208.804 273.041C210.296 243.911 234.698 217.737 263.314 214.567C282.66 212.424 302.727 219.607 321.415 214.109C338.741 209.012 351.237 194.119 366.296 184.052C383.968 172.235 406.528 167.099 426.891 172.974C447.257 178.85 464.492 196.695 467.235 217.968C470.152 240.588 458.004 266.283 470.888 284.991C480.485 298.927 499.63 301.618 516.392 301.075C533.155 300.531 551.03 298.252 565.763 306.372C579.463 313.921 587.611 329.548 589.138 345.273C590.664 360.996 586.334 376.788 579.943 391.199C574.357 403.794 567.162 415.706 562.961 428.843C558.759 441.979 557.893 457.066 564.737 469.006C571.941 481.577 585.915 488.105 597.307 496.94C617.442 512.552 635.027 536.936 636.536 562.578Z" fill="#ADE0EC"/>
+									</g>
+									<g id="g38">
+											<path id="path40" d="M595.195 76.2172L623.725 149.709L684.511 114.948L595.195 76.2172Z" fill="#FAFAFA"/>
+									</g>
+									<g id="g42">
+											<path id="path44" d="M595.195 76.2172L651.26 133.962L666.528 125.232L595.195 76.2172Z" fill="#DADADA"/>
+									</g>
+									<g id="g46">
+											<path id="path48" d="M666.528 125.231L655.896 151.885L651.262 133.962L666.528 125.231Z" fill="#DADADA"/>
+									</g>
+									<g id="g50">
+											<path id="path52" d="M655.896 151.885L642.776 138.814L651.262 133.962L655.896 151.885Z" fill="#B2B2B2"/>
+									</g>
+									<g id="g54">
+											<path id="path56" d="M222.015 539.778C157.683 522.604 101.579 476.087 72.2367 415.592C60.1279 390.628 52.3612 362.908 54.182 335.155C56.0014 307.4 68.2732 279.663 90.2639 263.011C112.253 246.359 144.303 242.756 167.56 257.538C190.03 271.821 200.733 299.209 220.204 317.461C243.475 339.274 280.404 345.641 308.459 330.683C336.514 315.723 352.288 279.369 342.05 248.968C332.575 220.834 305.793 203.339 282.527 185.228C259.261 167.115 236.126 141.651 239.454 112.116C242.315 86.7319 264.382 67.653 287.628 57.7513C332.132 38.7951 389.516 47.2223 419.844 85.2787C452.476 126.224 446.202 185.954 431.486 236.425C416.769 286.896 395.069 337.985 402.391 390.086C408.475 433.375 434.97 472.304 470.109 497.688C505.247 523.075 548.365 535.649 591.441 538.326C634.426 540.999 680.569 532.908 712.364 503.476C744.158 474.044 754.899 419.157 726.78 386.108C712.226 369.003 690.497 360.328 669.604 352.466C648.708 344.604 626.907 336.377 611.765 319.807C596.621 303.236 590.753 275.553 604.995 258.181C621.492 238.058 665.44 235.858 680.982 214.969C692.069 200.069 679.116 171.364 666.529 157.269" stroke="#00C0E0" stroke-width="2.541" stroke-miterlimit="10" stroke-dasharray="7.62 7.62"/>
+									</g>
+									<g id="g58">
+											<path id="path60" d="M186.221 462.671C158.423 444.172 133.639 421.035 113.173 394.475C104.595 383.341 96.7115 371.5 91.5083 358.398C86.3038 345.294 83.8862 330.794 86.4431 316.909C88.2757 306.953 93.6209 296.589 103.112 293.404C110.525 290.917 118.902 293.505 125.077 298.35C131.253 303.195 135.584 310.023 139.418 316.916C154.207 343.52 163.287 372.9 174.224 401.352C179.474 415.006 185.205 428.511 192.17 441.366C195.631 447.754 199.387 453.984 203.532 459.939C207.289 465.334 214.117 471.144 216.477 476.969C211.073 481.321 191.263 466.026 186.221 462.671Z" fill="#009D9C"/>
+									</g>
+									<g id="g62">
+											<path id="path64" d="M107.952 308.508C121.544 366.877 153.477 420.713 197.968 460.267" stroke="#00BBBF" stroke-width="2.02" stroke-miterlimit="10"/>
+									</g>
+									<g id="g66">
+											<path id="path68" d="M556.282 462.962C580.155 451.221 602.114 435.493 621.004 416.609C628.922 408.693 636.362 400.145 641.81 390.319C647.257 380.493 650.64 369.27 650.028 358.018C649.587 349.946 646.41 341.19 639.223 337.682C633.608 334.942 626.717 336.117 621.339 339.307C615.961 342.497 611.841 347.447 608.109 352.504C593.705 372.014 583.539 394.316 571.997 415.691C566.459 425.947 560.553 436.037 553.736 445.484C550.349 450.177 546.746 454.716 542.861 458.995C539.341 462.875 533.349 466.761 530.891 471.124C534.727 475.129 551.952 465.092 556.282 462.962Z" fill="#009D9C"/>
+									</g>
+									<g id="g70">
+											<path id="path72" d="M633.861 349.129C617.182 393.899 586.452 433.173 547.233 459.836" stroke="#00BBBF" stroke-width="1.612" stroke-miterlimit="10"/>
+									</g>
+									<g id="g74">
+											<path id="path76" d="M198.233 424.458C213.177 349.774 197.247 269.251 155.048 206.17" stroke="#11ABBA" stroke-width="2.541" stroke-miterlimit="10"/>
+									</g>
+									<g id="g78">
+											<path id="path80" d="M159.471 213.554C147.424 209.56 136.887 201.07 130.331 190.079C123.775 179.087 121.256 165.687 123.366 153.024C136.148 156.495 148.154 164.541 154.962 176.037C161.771 187.536 162.465 200.493 159.471 213.554Z" fill="#11ABBA"/>
+									</g>
+									<g id="g82">
+											<path id="path84" d="M172.923 237.731C170.163 228.217 170.886 217.71 174.922 208.676C178.958 199.643 186.273 192.157 195.149 187.981C198.557 197.74 198.756 208.999 194.512 218.417C190.269 227.834 182.434 233.949 172.923 237.731Z" fill="#11ABBA"/>
+									</g>
+									<g id="g86">
+											<path id="path88" d="M173.775 236.831C166.404 230.308 156.684 226.574 146.897 226.504C137.11 226.434 127.338 230.03 119.876 236.447C127.196 243.672 137.206 248.568 147.423 248.608C157.641 248.647 166.403 243.999 173.775 236.831Z" fill="#11ABBA"/>
+									</g>
+									<g id="g90">
+											<path id="path92" d="M188.104 276.094C187.024 266.239 189.542 256.02 195.07 247.837C200.597 239.655 209.088 233.576 218.546 231.029C220.225 241.241 218.483 252.363 212.686 260.887C206.887 269.41 198.122 274.049 188.104 276.094Z" fill="#11ABBA"/>
+									</g>
+									<g id="g94">
+											<path id="path96" d="M189.099 275.358C182.962 267.634 174.033 262.24 164.408 260.443C154.782 258.647 144.542 260.463 136.091 265.464C142.057 273.87 151.07 280.459 161.124 282.301C171.179 284.145 180.606 281.115 189.099 275.358Z" fill="#11ABBA"/>
+									</g>
+									<g id="g98">
+											<path id="path100" d="M198.154 314.469C197.924 304.556 201.31 294.598 207.521 286.933C213.729 279.267 222.71 273.961 232.351 272.257C233.146 282.578 230.456 293.504 223.948 301.485C217.439 309.467 208.308 313.315 198.154 314.469Z" fill="#11ABBA"/>
+									</g>
+									<g id="g102">
+											<path id="path104" d="M199.208 313.823C193.758 305.586 185.324 299.426 175.891 296.789C166.457 294.15 156.099 295.057 147.252 299.294C152.471 308.194 160.885 315.553 170.744 318.274C180.602 320.997 190.253 318.808 199.208 313.823Z" fill="#11ABBA"/>
+									</g>
+									<g id="g106">
+											<path id="path108" d="M203.971 356.696C205.264 346.866 210.136 337.563 217.445 330.968C224.754 324.372 234.439 320.543 244.225 320.378C243.428 330.699 239.095 341.071 231.443 347.929C223.789 354.789 214.179 357.154 203.971 356.696Z" fill="#11ABBA"/>
+									</g>
+									<g id="g110">
+											<path id="path112" d="M205.112 356.224C200.99 347.23 193.605 339.817 184.689 335.725C175.775 331.635 165.404 330.9 156.012 333.694C159.806 343.307 166.988 351.901 176.31 356.142C185.632 360.381 195.5 359.74 205.112 356.224Z" fill="#11ABBA"/>
+									</g>
+									<g id="g114">
+											<path id="path116" d="M546.285 450.207C530.11 375.786 544.71 295.004 585.861 231.219" stroke="#11ABBA" stroke-width="2.541" stroke-miterlimit="10"/>
+									</g>
+									<g id="g118">
+											<path id="path120" d="M581.562 238.676C593.54 234.478 603.937 225.811 610.312 214.71C616.685 203.608 618.983 190.168 616.663 177.542C603.94 181.23 592.069 189.476 585.452 201.088C578.835 212.7 578.354 225.668 581.562 238.676Z" fill="#11ABBA"/>
+									</g>
+									<g id="g122">
+											<path id="path124" d="M568.512 263.078C571.114 253.518 570.219 243.024 566.033 234.06C561.85 225.096 554.412 217.737 545.469 213.71C542.22 223.525 542.208 234.787 546.607 244.131C551.006 253.476 558.939 259.457 568.512 263.078Z" fill="#11ABBA"/>
+									</g>
+									<g id="g126">
+											<path id="path128" d="M567.646 262.192C574.907 255.545 584.566 251.647 594.349 251.411C604.134 251.175 613.963 254.605 621.528 260.895C614.331 268.242 604.403 273.308 594.187 273.52C583.972 273.732 575.135 269.234 567.646 262.192Z" fill="#11ABBA"/>
+									</g>
+									<g id="g130">
+											<path id="path132" d="M553.965 301.692C554.883 291.82 552.196 281.645 546.534 273.556C540.872 265.469 532.283 259.535 522.783 257.148C521.274 267.388 523.198 278.478 529.136 286.902C535.074 295.328 543.915 299.817 553.965 301.692Z" fill="#11ABBA"/>
+									</g>
+									<g id="g134">
+											<path id="path136" d="M552.959 300.973C558.968 293.147 567.807 287.6 577.401 285.642C586.995 283.683 597.263 285.324 605.795 290.182C599.97 298.687 591.066 305.428 581.044 307.441C571.021 309.454 561.546 306.585 552.959 300.973Z" fill="#11ABBA"/>
+									</g>
+									<g id="g138">
+											<path id="path140" d="M544.55 340.232C544.617 330.317 541.066 320.416 534.731 312.857C528.396 305.299 519.329 300.144 509.661 298.606C509.036 308.939 511.905 319.818 518.546 327.687C525.186 335.556 534.379 339.25 544.55 340.232Z" fill="#11ABBA"/>
+									</g>
+									<g id="g142">
+											<path id="path144" d="M543.486 339.603C548.799 331.276 557.13 324.975 566.519 322.176C575.908 319.378 586.279 320.109 595.196 324.198C590.124 333.185 581.833 340.685 572.021 343.571C562.207 346.46 552.522 344.437 543.486 339.603Z" fill="#11ABBA"/>
+									</g>
+									<g id="g146">
+											<path id="path148" d="M539.431 382.551C537.978 372.745 532.951 363.525 525.535 357.055C518.117 350.586 508.371 346.92 498.585 346.921C499.551 357.227 504.053 367.523 511.819 374.253C519.583 380.981 529.232 383.182 539.431 382.551Z" fill="#11ABBA"/>
+									</g>
+									<g id="g150">
+											<path id="path152" d="M538.282 382.098C542.255 373.036 549.518 365.498 558.363 361.259C567.21 357.016 577.568 356.105 587.003 358.74C583.369 368.417 576.328 377.13 567.079 381.527C557.828 385.925 547.95 385.452 538.282 382.098Z" fill="#11ABBA"/>
+									</g>
+									<g id="g154">
+											<path id="path156" d="M186.615 500.321C190.696 492.791 196.119 485.823 199.682 478.076C190.178 465.849 178.777 454.862 166.819 445.23C159.004 438.931 150.847 433.032 142.419 427.531C134.688 433.762 126.957 439.994 119.225 446.225C120.579 435.351 121.356 425.888 122.482 415.574C105.313 406.143 87.2411 398.331 68.6211 392.377C64.3289 399.386 60.6691 406.825 54.8967 412.829C54.9847 404.798 54.2249 396.412 53.1469 387.893C35.9349 383.405 18.3639 380.482 0.707452 379.308C0.649609 386.531 1.06635 393.746 1.88798 400.912C6.50223 399.507 10.074 395.563 14.9604 394.821C11.7383 402.728 8.82513 411.421 4.99044 419.449C9.19717 438.521 16.3959 456.93 26.2186 473.763C34.3468 468.915 41.9636 462.248 51.7627 458.125C50.0576 473.301 50.0274 489.179 48.7351 504.527C53.8963 510.215 59.4097 515.573 65.2741 520.527C75.5977 529.245 86.9217 536.691 98.9201 542.791C101.353 533.385 103.872 524.016 109.898 516.114C116.996 529.781 124.688 541.96 131.128 555.467C157.986 563.194 186.571 564.779 214.002 559.454C218.542 558.574 222.349 551.211 223.76 546.749C225.172 542.289 224.898 537.468 224.262 532.827C222.26 518.237 216.907 504.646 209.377 492.145C201.36 494.069 193.248 496.332 186.615 500.321Z" fill="#11ABBA"/>
+									</g>
+									<g id="g158">
+											<path id="path160" d="M194.298 545.299C131.158 507.676 73.43 460.749 23.4922 406.451" stroke="#55CDE2" stroke-width="2.541" stroke-miterlimit="10"/>
+									</g>
+									<g id="g162">
+											<path id="path164" d="M559.699 515.384C555.868 510.221 551.098 505.622 547.63 500.242C553.415 490.113 560.744 480.704 568.626 472.241C573.781 466.709 579.23 461.436 584.922 456.429C591.334 460.232 597.744 464.032 604.155 467.835C602.002 459.887 600.425 452.929 598.502 445.374C610.285 436.498 622.913 428.73 636.143 422.286C640.078 427.037 643.584 432.176 648.514 436.023C647.601 430.055 647.283 423.73 647.188 417.273C659.526 412.073 672.295 407.997 685.312 405.212C686.116 410.582 686.566 415.998 686.708 421.42C683.127 420.873 680.053 418.324 676.338 418.3C679.571 423.837 682.654 429.991 686.353 435.55C685.232 450.201 681.815 464.681 676.277 478.269C669.715 475.541 663.346 471.403 655.618 469.394C658.486 480.504 660.182 492.319 662.759 503.602C659.518 508.393 655.978 512.977 652.135 517.298C645.372 524.903 637.727 531.67 629.441 537.508C626.639 530.772 623.778 524.07 618.459 518.842C614.616 529.781 610.176 539.676 606.805 550.427C587.63 559.082 566.522 563.353 545.546 562.358C542.075 562.193 538.466 557.123 536.945 553.957C535.425 550.79 535.121 547.171 535.105 543.651C535.058 532.573 537.61 521.88 541.897 511.761C548.065 512.326 554.342 513.133 559.699 515.384Z" fill="#11ABBA"/>
+									</g>
+									<g id="g166">
+											<path id="path168" d="M558.719 549.691C601.746 514.86 639.767 473.689 671.212 427.878" stroke="#55CDE2" stroke-width="1.91" stroke-miterlimit="10"/>
+									</g>
+									<g id="g170">
+											<path id="path172" d="M554.113 562.578H187.856C180.008 562.578 173.645 556.132 173.645 548.18V310.114C173.645 302.163 180.008 295.717 187.856 295.717H554.113C561.963 295.717 568.324 302.163 568.324 310.114V548.18C568.324 556.132 561.963 562.578 554.113 562.578Z" fill="#060C37"/>
+									</g>
+									<g id="g174">
+											<path id="path176" d="M563.719 429.147C563.719 435.866 558.342 441.314 551.71 441.314C545.078 441.314 539.701 435.866 539.701 429.147C539.701 422.427 545.078 416.981 551.71 416.981C558.342 416.981 563.719 422.427 563.719 429.147Z" fill="#111E65"/>
+									</g>
+									<g id="g178">
+											<path id="path180" d="M182.05 474.266C179.95 474.266 178.247 472.542 178.247 470.413V387.882C178.247 385.753 179.95 384.028 182.05 384.028C184.151 384.028 185.854 385.753 185.854 387.882V470.413C185.854 472.542 184.151 474.266 182.05 474.266Z" fill="#111E65"/>
+									</g>
+									<path id="path182" d="M535.104 552.722H191.254V305.564H535.104V552.722Z" fill="#D8E9F5"/>
+									<path id="path184" d="M535.1 322.18H191.256V305.568H535.1V322.18Z" fill="#A4B1BA"/>
+									<path id="path186" d="M201.252 320.17H196.898V314.56H201.252V320.17Z" fill="#FF6044"/>
+									<path id="path188" d="M206.906 320.17H202.552V310.653H206.906V320.17Z" fill="#FF6044"/>
+									<path id="path190" d="M212.886 320.17H208.532V307.952H212.886V320.17Z" fill="#FF6044"/>
+									<g id="g192">
+											<path id="path194" d="M507.781 308.957V309.767C507.781 310.411 507.264 310.933 506.629 310.933H505.346C504.711 310.933 504.196 311.455 504.196 312.099V315.647C504.196 316.293 504.711 316.814 505.346 316.814H506.629C507.264 316.814 507.781 317.336 507.781 317.979V318.792C507.781 319.435 508.296 319.957 508.931 319.957H526.844C527.479 319.957 527.995 319.435 527.995 318.792V308.957C527.995 308.313 527.479 307.791 526.844 307.791H508.931C508.296 307.791 507.781 308.313 507.781 308.957Z" fill="#D8E9F5"/>
+									</g>
+									<g id="g196">
+											<path id="path198" d="M526.894 319.341H523.692C523.458 319.341 523.267 319.148 523.267 318.909V308.824C523.267 308.584 523.458 308.391 523.692 308.391H526.894C527.13 308.391 527.32 308.584 527.32 308.824V318.909C527.32 319.148 527.13 319.341 526.894 319.341Z" fill="#92FC28"/>
+									</g>
+									<g id="g200">
+											<path id="path202" d="M521.94 319.341H518.739C518.505 319.341 518.313 319.148 518.313 318.909V308.824C518.313 308.584 518.505 308.391 518.739 308.391H521.94C522.175 308.391 522.366 308.584 522.366 308.824V318.909C522.366 319.148 522.175 319.341 521.94 319.341Z" fill="#92FC28"/>
+									</g>
+									<g id="g204">
+											<path id="path206" d="M516.987 319.341H513.785C513.551 319.341 513.36 319.148 513.36 318.909V308.824C513.36 308.584 513.551 308.391 513.785 308.391H516.987C517.223 308.391 517.413 308.584 517.413 308.824V318.909C517.413 319.148 517.223 319.341 516.987 319.341Z" fill="#92FC28"/>
+									</g>
+									<g id="g208">
+											<path id="path210" d="M498.8 313.874C498.8 316.456 496.733 318.551 494.183 318.551C491.635 318.551 489.569 316.456 489.569 313.874C489.569 311.292 491.635 309.197 494.183 309.197C496.733 309.197 498.8 311.292 498.8 313.874Z" fill="#D8E9F5"/>
+									</g>
+									<path id="path212" d="M513.36 533.681H212.999V340.836H513.36V533.681Z" fill="#C0CFDA"/>
+									<path id="path214" d="M513.36 357.464H212.999V340.838H513.36V357.464Z" fill="#A4B3BC"/>
+									<path id="path216" d="M507.28 373.991H310.642V366.083H507.28V373.991Z" fill="#DCEEFB"/>
+									<path id="path218" d="M419.169 389.046H310.642V381.138H419.169V389.046Z" fill="#DCEEFB"/>
+									<path id="path220" d="M369.032 404.104H310.642V396.196H369.032V404.104Z" fill="#DCEEFB"/>
+									<path id="path222" d="M507.28 430.213H310.642V422.305H507.28V430.213Z" fill="#DCEEFB"/>
+									<path id="path224" d="M419.169 445.268H310.642V437.36H419.169V445.268Z" fill="#DCEEFB"/>
+									<path id="path226" d="M369.032 460.325H310.642V452.418H369.032V460.325Z" fill="#DCEEFB"/>
+									<path id="path228" d="M507.28 485.114H310.642V477.206H507.28V485.114Z" fill="#DCEEFB"/>
+									<path id="path230" d="M419.169 500.172H310.642V492.264H419.169V500.172Z" fill="#DCEEFB"/>
+									<path id="path232" d="M369.032 515.228H310.642V507.32H369.032V515.228Z" fill="#DCEEFB"/>
+									<path id="path234" d="M301.035 409.578H224.781V366.082H301.035V409.578Z" fill="#DCEEFB"/>
+									<g id="g236">
+											<path id="path238" d="M224.781 409.579L262.908 387.831L301.034 409.579H224.781Z" fill="#CADBE7"/>
+									</g>
+									<g id="g240">
+											<path id="path242" d="M301.034 366.082L262.908 387.83L224.781 366.082H301.034Z" fill="#CADBE7"/>
+									</g>
+									<path id="path244" d="M301.035 465.546H224.781V422.05H301.035V465.546Z" fill="#DCEEFB"/>
+									<g id="g246">
+											<path id="path248" d="M224.781 465.546L262.908 443.798L301.034 465.546H224.781Z" fill="#CADBE7"/>
+									</g>
+									<g id="g250">
+											<path id="path252" d="M301.034 422.05L262.908 443.798L224.781 422.05H301.034Z" fill="#CADBE7"/>
+									</g>
+									<path id="path254" d="M301.035 521.515H224.781V478.019H301.035V521.515Z" fill="#DCEEFB"/>
+									<g id="g256">
+											<path id="path258" d="M224.781 521.514L262.908 499.766L301.034 521.514H224.781Z" fill="#CADBE7"/>
+									</g>
+									<g id="g260">
+											<path id="path262" d="M301.034 478.018L262.908 499.766L224.781 478.018H301.034Z" fill="#CADBE7"/>
+									</g>
+									<g id="g264">
+											<g id="g282">
+													<g id="g280" opacity="0.440002">
+															<g id="g274" opacity="0.440002">
+																	<path id="path272" opacity="0.440002" d="M314.124 305.565L191.254 430.069V321.271L206.769 305.565H314.124Z" fill="white"/>
+															</g>
+															<g id="g278" opacity="0.440002">
+																	<path id="path276" opacity="0.440002" d="M388.697 305.565L191.254 505.613V449.961L333.77 305.565H388.697Z" fill="white"/>
+															</g>
+													</g>
+											</g>
+									</g>
+									<g id="g284">
+											<g id="g302">
+													<g id="g300" opacity="0.440002">
+															<g id="g294" opacity="0.440002">
+																	<path id="path292" opacity="0.440002" d="M535.104 332.465V441.249L425.071 552.723H317.715L535.104 332.465Z" fill="white"/>
+															</g>
+															<g id="g298" opacity="0.440002">
+																	<path id="path296" opacity="0.440002" d="M535.104 461.142V516.794L499.632 552.723H444.716L535.104 461.142Z" fill="white"/>
+															</g>
+													</g>
+											</g>
+									</g>
+									<g id="envelope">
+											<g id="g304">
+													<path id="path306" d="M249.266 298.798L351.208 218.764C357.652 213.705 366.657 213.705 373.102 218.764L475.045 298.798V432.924H249.266V298.798Z" fill="#FF9004"/>
+											</g>
+											<path id="path308" d="M448.926 227.706H275.382V421.076H448.926V227.706Z" fill="#FAFAFA"/>
+											<path id="path310" d="M438.481 239.346H285.831V245.241H438.481V239.346Z" fill="#DCDCDC"/>
+											<path id="path312" d="M415.561 251.195H285.831V257.09H415.561V251.195Z" fill="#DCDCDC"/>
+											<path id="path314" d="M394.51 263.044H285.831V268.939H394.51V263.044Z" fill="#DCDCDC"/>
+											<path id="path316" d="M394.51 285.792H285.831V291.688H394.51V285.792Z" fill="#DCDCDC"/>
+											<path id="path318" d="M366.443 297.167H285.831V303.062H366.443V297.167Z" fill="#DCDCDC"/>
+											<path id="path320" d="M442.769 321H362.156V326.896H442.769V321Z" fill="#DCDCDC"/>
+											<path id="path322" d="M442.768 332.609H377.201V338.504H442.768V332.609Z" fill="#DCDCDC"/>
+											<g id="g324">
+													<path id="path326" d="M362.155 365.9L249.265 298.877V432.924L362.155 365.9Z" fill="#FFAE35"/>
+											</g>
+											<g id="g328">
+													<path id="path330" d="M362.156 365.9L475.045 298.877V432.924L362.156 365.9Z" fill="#FFAE35"/>
+											</g>
+											<g id="g332">
+													<path id="path334" d="M351.209 352.89L249.267 432.924H475.044L373.102 352.89C366.658 347.831 357.652 347.831 351.209 352.89Z" fill="#FFBF69"/>
+											</g>
+									</g>
+			
+							</g>
+					</g>
+			</g>
+	                    </svg>         
+                                        
+
+                        <div class="app-contact">CONTACT INFO : +977 9840168535</div>
+                      </div>
+                      <div class="screen-body-item">
+                        <form id="myform">
+                          <div class="app-form-group">
+                            <input type="name" class="app-form-control" placeholder="NAME" required>
+                          </div>
+                          <div class="app-form-group">
+                            <input type="email" class="app-form-control" placeholder="EMAIL" required>
+                          </div>
+                          <div class="app-form-group">
+                            <input type="text" class="app-form-control" placeholder="CONTACT" required>
+                          </div>
+                          <div class="app-form-group message">
+                            <input type="text" class="app-form-control" placeholder="MESSAGE" required>
+                          </div>
+                          <div class="app-form-group buttons">
+                            <button class="app-form-button" onclick="clearForm()" value="Reset form">CANCEL</button>
+                            <button class="app-form-button" onclick="scrollToTopAndClearForm()">SEND</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+    <footer>
+      <nav>
+       <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+
+      <p>Copyright &#169; 2024 Stuti Rajbhandari</p>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="JavaScript/script.js"></script>  
+    
+</body>
+</html>

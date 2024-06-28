@@ -1,0 +1,154 @@
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    .header{
+      display:none;
+    }
+}
+
+/*HERO SECTION*/
+
+@media screen and (max-width: 1200px) {
+  .header{
+    display: none;
+  }
+  .header-bg{
+    display:none;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .section__pic-container, .header-bg {
+      display: none;
+  }
+
+
+  .screen-body {
+      flex-direction: column;
+  }
+
+  .screen-body-item {
+      width: 100%;
+      padding: 20px;
+  }
+}
+
+/* ABOUT SECTION*/
+
+@media (max-width: 1200px) {
+  #about {
+      text-align: center; 
+  }
+
+  .about-containers {
+      gap: 1rem; 
+      margin: 1rem; 
+      align-items: center;
+      text-align: center;
+  }
+
+  .section__text__p3{
+  text-align: center;
+  }
+
+  .text-container{
+    text-align: center;
+  }
+
+  .details-container:hover{
+    transform: none;
+    border: rgba(53, 53, 53, 0.8);  
+  }
+}
+
+
+@keyframes border-move{
+  0%{ border-radius:44% 56% 53% 47% / 56% 37% 63% 44%; }
+  10%{ border-radius:55% 45% 66% 34% / 60% 53% 47% 40%; }
+  20%{ border-radius:53% 47% 56% 47% / 53% 56% 44% 47%; }
+  30%{ border-radius:60% 40% 50% 50% / 44% 50% 50% 56%; }
+  40%{ border-radius:52% 48% 40% 60% / 52% 59% 41% 48% ; }
+  50%{ border-radius:58% 42% 41% 59% / 43% 72% 28% 57% ; }
+  60%{ border-radius:63% 34% 41% 66% / 58% 55% 45% 42% ; }
+  70%{ border-radius:66% 37% 34% 59% / 70% 39% 61% 30% ; }
+  80%{ border-radius:57% 43% 59% 41% / 53% 55% 45% 47%;}
+  90%{ border-radius:43% 57% 61% 39% / 62% 38% 62% 38% ; }
+  100%{ border-radius:44% 56% 53% 47% / 56% 37% 63% 44%; }
+}
+
+/*WORKS*/
+
+@media (max-width:1200px) {
+
+.box p{
+  display: none;
+ }
+
+}
+
+
+/*CONTACT ME*/
+
+@media (max-width: 1200px) {
+  section {
+      margin: 0 1rem;
+  }
+
+  .screen-body {
+      padding: 10px;
+  }
+
+  .title{
+    margin-bottom: 2rem;
+  }
+
+  form{
+      padding: 10px;
+      margin-right: 2rem;
+  }
+
+  .app-form-group {
+      margin-bottom: 10px;
+  }
+
+  .app-form-control {
+      font-size: 12px;
+  }
+
+  svg {
+     height: 10rem;
+     margin-bottom: 2rem;
+   }
+
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
